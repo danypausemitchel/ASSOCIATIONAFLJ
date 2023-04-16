@@ -1,0 +1,19 @@
+#firstRowHomePage{
+    min-height: 50vh;
+    background-image: url(Image/Bienvenue.jpg);
+    background-position: center;
+}
+
+#teleCharger{
+    width: 300px;
+}
+
+.Accueil{
+    font-size: 20px;
+    color: red;
+}
+
+#SeConnecter{
+    width: 250px;
+}
+
