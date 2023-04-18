@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <meta name="description" content="vous trouverez ici toutes les infos en lien avec notre association ">
     
     <!-- Bootstrap CSS -->
@@ -12,13 +13,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Accueil - Association Française - Réunion</title>
   </head>
-  <body class="bg-white">
+  <body>
     <header>
       <nav class="position-fixed navbar navbar-expand-lg navbar-dark bg-primary w-100">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <i class="bi bi-door-open"></i> AFLJ - Réunion
+            <i class="bi bi-door-open">  AFLJ - Réunion</i>  
           </a>
+          <!--<img src="/Image/AFLJ.ico" width="50px" height="50px"></img>-->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,26 +38,37 @@
 
     <main class="container-fluid">
       <div class="row row-cols-1" id="firstRowHomePage"></div> 
-       <div class="d-flex justif-content-center flex-column text-center m-2">
-        <div class="Accueil mt-3">Bienvenue !</div>
-      
-        <div class="Presentation">Association pour la Formation et les Loisirs des Jeunes</div>
-        <div>
-          <a href="" class="btn container " id="SeConnecter">
+       <div class="text-center m-2" id="Accueil">
+        <div class="Welcome">Bienvenue !
+           <a href="" class="btn container " id="SeConnecter">
           <button class="btn btn-outline-primary">Se connecter</button>
           </a>
         </div>
-       </div> 
-    
+       
+        <div class="Presentation">Association pour la Formation et les Loisirs des Jeunes</div>
+        </div>
     </main>
-
-
 
     <div>
       <a  href="/Docs/TabMensuel.pdf" target="_blank" class="btn container d-flex justif-content-center flex-column " id="teleCharger">
            <button class="btn btn-outline-info">Télécharger notre agenda mensuel</button>
       </a>
     </div>
+    
+   <footer class="container-fluid py-5 text-center basDePage"> 
+    <div class="">
+      <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-linkedin"></i></button>
+      <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-facebook"></i></button>
+      <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-twitter"></i></button>
+      <button class="me-2 btn-social-share btn btn-outline-danger"><i class="bi bi-pinterest"></i></button>
+    </div>
+    <div class="text-secondary"><br/>
+      Copyright 2023 - tous droits réservés 
+    </div>
+  </footer>
+
+
+    
       
 
 

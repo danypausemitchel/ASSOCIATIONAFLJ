@@ -1,18 +1,28 @@
-
+body{
+    background-color: rgb(3, 26, 10);
+}
 
 #firstRowHomePage{
-    min-height: 50vh;
+    min-height: 60vh;
     background-image: url(Image/Bienvenue.jpg);
+    margin-top: auto;
     background-position: center;
 }
 
 #teleCharger{
     width: 300px;
+    margin: 30px;
 }
 
-.Accueil{
-    font-size: 30px;
+#Accueil{
     color: red;
+    background-color: rgb(3, 26, 10);
+    width: 100%;
+    padding: 30px;
+}
+
+.Welcome{
+    font-size: 24px;
 }
 
 #SeConnecter{
@@ -20,6 +30,11 @@
 }
 
 .Presentation{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+}
+
+footer{
+    background-color: #181818;
+    padding: 30px;
 }
