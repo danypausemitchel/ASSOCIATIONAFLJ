@@ -2,39 +2,48 @@ body{
     background-color: rgb(3, 26, 10);
 }
 
-#firstRowHomePage{
-    min-height: 60vh;
-    background-image: url(Image/Bienvenue.jpg);
-    margin-top: auto;
-    background-position: center;
+#realisations-img{
+    min-height: 50vh;
+    background-image: url("Image/Bienvenue1.jpg");
 }
-
 #teleCharger{
     width: 300px;
     margin: 30px;
 }
 
 #Accueil{
-    color: red;
-    background-color: rgb(3, 26, 10);
+    color: darkmagenta;
     width: 100%;
-    padding: 30px;
+    padding: 70px;
+    font-weight: bold;
 }
 
 .Welcome{
-    font-size: 24px;
+    font-size: 34px;
 }
 
 #SeConnecter{
-    width: 250px;
+    width: 220px;
 }
 
 .Presentation{
     font-size: 30px;
     font-weight: bold;
+    width: 100%;
+    margin-top: 370px;
+    color: darkmagenta;
 }
 
 footer{
     background-color: #181818;
     padding: 30px;
+}
+
+.enTete{
+    color: darkblue;
+    font-weight: bold;
+}
+
+.elementNav{
+    font-weight: bold;
 }
